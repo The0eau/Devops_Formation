@@ -447,9 +447,7 @@ Swarm initialisé : le nœud actuel (vq7xx5j4dpe04rgwwm5ur63ce) est maintenant u
 
 Pour ajouter un worker à ce swarm, exécutez la commande suivante :
 ```
-docker swarm join \
---token SWMTKN-1-50qba7hmo5exuapkmrj6jki8knfvinceo68xjmh322y7c8f0pj-87mjqjho30uue43oqbhhthjui \
-10.0.120.3:2377
+docker swarm join 
 ```
 Pour ajouter un gestionnaire à ce swarm, exécutez 'docker swarm join-token manager' et suivez les instructions. Vous pouvez considérer Docker Swarm comme un mode spécial activé par la commande : `docker swarm init`. L'option `--advertise-addr` spécifie l'adresse que les autres nœuds utiliseront pour rejoindre le swarm.
 
